@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestHello(t *testing.T) {
-	want := "Hello Go" // НАМЕРЕННО НЕПРАВИЛЬНОЕ ЗНАЧЕНИЕ
+	want := "Hello go" // НАМЕРЕННО НЕПРАВИЛЬНОЕ ЗНАЧЕНИЕ
 	got := hello()
 
 	if want != got {
