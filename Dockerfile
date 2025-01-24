@@ -1,6 +1,7 @@
 # Используем образ с Go
 FROM golang:1.23.2-alpine AS builder
 
+
 # Устанавливаем рабочий каталог внутри контейнера
 WORKDIR /app
 
